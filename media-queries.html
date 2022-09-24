@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .div-one {
+      background-color: red;
+      height: 100px;
+    }
+
+    /* Media Queries */
+    /* Pick the resolution */
+    /* Min-width */
+    /* Tablet */
+    /* @media only screen and (min-width: 500px) {
+      .div-one {
+        background-color: yellow;
+        height: 100px;
+      }
+    } */
+
+    /* > Tablet */
+    /* @media screen and (min-width: 900px) {
+      .div-one {
+        background-color: green;
+        height: 100px;
+      }
+    } */
+
+
+    /* Max Width */
+    /* Laptop */
+    /* @media screen and (max-width: 1400px) {
+      .div-one {
+        background-color: green;
+        height: 100px;
+      }
+    } */
+
+    /* Tablet  */
+    /* @media screen and (max-width: 900px) {
+      .div-one {
+        background-color: yellow;
+        height: 100px;
+      }
+    } */
+
+    /* Mobile */
+    /* @media screen and (max-width: 500px) {
+      .div-one {
+        background-color: aqua;
+        height: 100px;
+      }
+    } */
+
+    .column {
+      margin: 1%;
+      min-height: 250px;
+    }
+
+    .left-section {
+      background-color: greenyellow;
+    }
+
+    .center-section {
+      background-color: blue;
+    }
+
+    .right-section {
+      background-color: yellow;
+    }
+
+    /* Latop or more */
+    @media screen and (min-width: 900px) and (max-width: 1800px) {
+      .left-section {
+        width: 20%;
+      }
+
+      .center-section {
+        width: 54%;
+      }
+
+      .right-section {
+        width: 20%;
+      }
+    }
+
+    /* Tablet */
+    @media screen and (max-width: 900px) and (min-width: 600px) {
+      .left-section {
+        width: 26%;
+      }
+
+      .center-section {
+        width: 70%;
+      }
+
+      .right-section {
+        width: 26%;
+      }
+    }
+
+    /* Mobile */
+    @media screen and (max-width: 600px) and (min-width: 200px) {
+      .left-section {
+        width: 98%;
+      }
+
+      .center-section {
+        width: 98%;
+      }
+
+      .right-section {
+        width: 98%;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- <div class="div-one"></div> -->
+  <div style="display: flex;flex-wrap: wrap;">
+    <div class="column left-section">
+      Column 1
+    </div>
+    <div class="column center-section">
+      Coulmn 2
+    </div>
+    <div class="column right-section">
+      Column 3
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+Topics:
+
+  Icons --> FontAwesome
+
+  Drop-Box
+
+  RWD:
+
+    Responsive Web Design
+      Website should be responsive in all form-factors( devices eg: mobile, tab, laptop)
+      Based resolution we need to pack the UI in compact way so that user is not disturbed
+
+    Media Queries:
+      changing CSS prop values based on resolution of the screen
+
+
+  Bootstrap Intro ( https://getbootstrap.com/docs/5.1/getting-started/introduction/ )
+
+  Bootstrap Setup & usage
+    built-in classes with CSS already Setup or template starter codes
+
+    RWD in Bootstrap
+
+    Container
+
+Next Session:
+  Grid/flex concept, Row, Columns
+  12 Column System
+  column prefix
+  nested and ordering column
